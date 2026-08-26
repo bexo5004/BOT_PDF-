@@ -5,7 +5,7 @@ MAIN_MENU = ReplyKeyboardMarkup([
     ["📸 استخراج صور", "🔢 ترقيم الصفحات"],
     ["✂️ تقسيم", "🗑️ حذف صفحات"],
     ["📉 ضغط", "🔒 حماية"],
-    ["🔓 إزالة الحماية", "📝 نص إلى PDF"]
+    ["🔓 إزالة الحماية",]
 ], resize_keyboard=True)
 
 ADMIN_MENU = ReplyKeyboardMarkup([
