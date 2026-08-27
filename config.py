@@ -12,7 +12,7 @@ class Config:
     FORCED_CHANNEL = "bexo50"
     FORCED_CHANNELS = []
     
-    MAX_FILE_SIZE = 50 * 1024 * 1024  # 50 ميجابايت
+    MAX_FILE_SIZE = 500 * 1024 * 1024  # 50 ميجابايت
     TEMP_DIR = os.path.join(os.path.dirname(__file__), "temp")
     MAX_SESSION_TIME = 600
     CLEANUP_INTERVAL = 1800
