@@ -45,7 +45,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     
     welcome = """👋 **مرحباً بك في بوت المستندات!**
     
-📁 **الميزات المتاحة:**
+📁 الميزات المتاحة:
 • 📎 دمج PDF
 • 🖼️ صور لـ PDF
 • 📸 استخراج صور
@@ -55,7 +55,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 • 📉 ضغط
 • 🔒 حماية
 • 🔓 إزالة الحماية
-• 📝 نص إلى PDF
 
 اختر الأداة من القائمة 🚀"""
     
