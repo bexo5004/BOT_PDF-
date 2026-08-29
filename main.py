@@ -318,7 +318,7 @@ async def receive_files(update: Update, context: ContextTypes.DEFAULT_TYPE):
             
         except Exception as e:
             logger.error(f"خطأ: {e}")
-            await update.message.reply_text(" حدث خطأ في تحميل الملف بسب حجم الملفات كبيره رجاء ارسال الملفات الكبيره الى @bexo0 مع اسم الملف❤️🌿 ")
+            await update.message.reply_text(" حدث خطأ في تحميل الملف بسب حجم الملفات كبيره رجاء ارسال الملفات الكبيره الى @bexo0 مع اسم الملف شكرا لتفهمك🌿😊 ")
     
     return WAIT_FILE
 
